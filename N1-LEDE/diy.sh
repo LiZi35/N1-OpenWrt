@@ -35,6 +35,7 @@ rm -rf feeds/packages/utils/v2dat
 rm -rf feeds/luci/applications/luci-app-mosdns
 #rm -rf feeds/luci/themes/luci-theme-design
 #rm -rf feeds/luci/applications/luci-app-design-config
+rm -rf package/lean/luci-theme-argon
 
 # Default IP
 sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generate
